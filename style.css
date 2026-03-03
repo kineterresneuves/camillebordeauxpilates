@@ -162,10 +162,11 @@ ul { list-style: none; }
 }
 
 .parcours__img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: top center;
+  width: auto;
+  height: 95%;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: bottom center;
   display: block;
 }
 
