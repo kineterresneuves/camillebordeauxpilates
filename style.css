@@ -155,16 +155,16 @@ ul { list-style: none; }
   background-color: var(--color-dark);
   border-radius: var(--radius-lg);
   overflow: hidden;
-  height: 480px;
+  height: auto;
   display: flex;
   align-items: flex-end;
   justify-content: center;
 }
 
 .parcours__img {
-  width: auto;
-  height: 95%;
-  max-width: 100%;
+  width: 100%;
+  height: auto;
+  max-height: 480px;
   object-fit: contain;
   object-position: bottom center;
   display: block;
@@ -411,7 +411,7 @@ ul { list-style: none; }
 /* Texte "camille / pilates" centré */
 .method__overlay span {
   font-family: var(--font-display);
-  font-size: clamp(1.4rem, 2.2vw, 20rem);
+  font-size: clamp(1.4rem, 2.2vw, 40rem);
   font-weight: 400;
   font-style: italic;
   color: var(--color-white);
