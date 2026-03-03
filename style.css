@@ -141,13 +141,13 @@ ul { list-style: none; }
 
 /* ---- TOGGLE IMAGE (pilateson.png) ---- */
 .toggle-img {
-  width: 80px;
+  width: 150px;
   height: auto;
 }
 
 .toggle-img--light {
-  filter: brightness(0) invert(1);
-  opacity: 0.85;
+  filter: none;
+  opacity: 1;
 }
 
 /* ---- PARCOURS PHOTO – conteneur vert foncé ---- */
