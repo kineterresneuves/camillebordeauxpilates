@@ -411,7 +411,7 @@ ul { list-style: none; }
 /* Texte "camille / pilates" centré */
 .method__overlay span {
   font-family: var(--font-display);
-  font-size: clamp(1.4rem, 2.2vw, 40rem);
+  font-size: clamp(2rem, 4vw, 5rem); /* ajuste jusqu'à couvrir 40% */
   font-weight: 400;
   font-style: italic;
   color: var(--color-white);
