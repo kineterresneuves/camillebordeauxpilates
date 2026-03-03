@@ -146,7 +146,7 @@ ul { list-style: none; }
 }
 
 .toggle-img--light {
-  filter: none;
+  filter: brightness(0) invert(1);
   opacity: 1;
 }
 
