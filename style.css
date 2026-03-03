@@ -840,6 +840,18 @@ ul { list-style: none; }
   /* Parcours photo */
   .parcours__photo { height: 260px; }
 
+   /* ---- PARCOURS PHOTO – responsive ---- */
+.parcours__photo {
+  height: clamp(280px, 50vw, 480px);
+}
+
+.parcours__img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: bottom center;
+}
+
   /* Info */
   .info__pricing { padding: 28px 24px; }
   .info__location { padding: 24px; }
